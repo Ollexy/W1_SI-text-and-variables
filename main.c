@@ -94,6 +94,8 @@ int main()
                 printf("\n");
                 break;
             }
+            else
+                return 0;
         }
         //showing robot status
         else if (strcmp(choose, "status") == 0)
